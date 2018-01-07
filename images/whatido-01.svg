@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 90.1 35.1" style="enable-background:new 0 0 90.1 35.1;" xml:space="preserve">
+<symbol  id="whatido" viewBox="-31.5 -8.8 63.1 17.7">
+	<rect x="-31.5" y="-8.8" style="fill:none;" width="63" height="15.8"/>
+	<text transform="matrix(1 0 0 -1 -31.4897 -1.1943)" style="font-family:'AmericanTypewriter'; font-size:12px;">What i do</text>
+</symbol>
+<use xlink:href="#whatido"  width="63.1" height="17.7" x="-31.5" y="-8.8" transform="matrix(0.9984 0 0 -1.0191 47.7219 20.0818)" style="overflow:visible;"/>
+</svg>
