@@ -1,2 +1,1 @@
-# eksamen
-Filer til eksamen
+# eksamensfiler

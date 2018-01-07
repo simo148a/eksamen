@@ -1,0 +1,1139 @@
+body {
+    margin: 0;
+    background-image: url(images/background3-01.svg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+header {
+    position: fixed;
+    background: white;
+    width: 100%;
+    padding: 1vw 0vw 0vw 0.5vw;
+    z-index: 4;
+    box-shadow: 0px 3vw 3vw white;
+
+}
+
+nav a {
+    color: #000000;
+    font-family: monospace, sans-serif;
+    text-decoration: none;
+    padding-right: 3vw;
+    font-size: 1.2em;
+}
+
+.logo {
+    width: 10vw;
+    height: 4vw;
+    max-width: 160px;
+    background-image: url(images/heartlogo-01.svg);
+    background-repeat: no-repeat;
+    z-index: 15;
+    cursor: pointer;
+}
+
+nav .navigation {
+    padding: 0 3vw;
+}
+
+header nav a:hover {
+    color: #a9cebc;
+    cursor: pointer;
+}
+
+nav {
+    text-align: left;
+    margin: 0 0 0 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+p a {
+    color: #a9cebc;
+}
+
+.swipe_right {
+    background-image: url(images/arrow-01.svg);
+    width: 4vw;
+    height: 7vw;
+    position: fixed;
+    background-repeat: no-repeat;
+    top: 12vw;
+    left: 91vw;
+    transform: rotate(-90deg);
+    z-index: 6;
+}
+
+.swipe_right:hover {
+    cursor: pointer;
+    background-image: url(images/greenarrow-01.svg);
+}
+
+.swipe_left {
+    background-image: url(images/arrow-01.svg);
+    width: 4vw;
+    height: 8vw;
+    position: fixed;
+    background-repeat: no-repeat;
+    top: 12vw;
+    left: 5vw;
+    transform: rotate(90deg);
+    z-index: 6;
+}
+
+.swipe_left:hover {
+    cursor: pointer;
+    background-image: url(images/greenarrow-01.svg);
+}
+
+.splash {
+    width: 70vw;
+    height: 50vw;
+    max-width: 1024px;
+    background-image: url(images/welcome-01.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.pilned {
+
+    height: 25vw;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.arrow {
+    width: 5vw;
+    height: 5vw;
+    background-image: url(images/arrow-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: 0 auto;
+    left: 46vw;
+
+    animation-name: arrow_kf;
+    animation-duration: 0.8s;
+    /**animation-fill-mode:**/
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+
+}
+
+@keyframes arrow_kf {
+    0% {
+        top: 43vw;
+    }
+
+    100% {
+        top: 46vw;
+    }
+}
+
+.arrow:hover {
+    cursor: pointer;
+    background-image: url(images/greenarrow-01.svg);
+}
+
+/**************************/
+
+#introduction {
+    margin: 0 auto;
+    width: 40vw;
+}
+
+.aboutcontent {
+    max-width: 80vw;
+    margin: 0 auto;
+    background-color: rgba(201, 224, 214, 0.6);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 4vw;
+}
+
+.photo img {
+    width: 100%;
+}
+
+
+.abouttext {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 4vw 1vw;
+    font-size: 1em;
+}
+
+.abouttext p {
+    font-family: monospace, sans-serif;
+    padding: 0vw;
+    font-size: 1em;
+}
+
+
+/************************/
+
+#skills {
+    margin: 0 auto;
+    width: 50vw;
+}
+
+.myskills {
+    width: 100%;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.mysoftwares {
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+/*************MY WORK******************/
+
+.mywork {
+    width: 70vw;
+    height: 30vw;
+    background-image: url(images/mywork-01.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#work img {
+    width: 100%;
+}
+
+#work {
+    margin: 0 auto;
+    padding: 0px 20px 20px 20px;
+    max-width: 1124px;
+}
+
+#work .workbilleder,
+.workbilleder2,
+.workbilleder3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.workbilleder div {
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin: 5px 7px 5px 7px;
+    outline-style: solid;
+    outline-color: #ffffff;
+    padding: 5px;
+    background-color: #ffffff;
+
+}
+
+.workbilleder2 div {
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin: 5px 7px 5px 7px;
+    outline-style: solid;
+    outline-color: #ffffff;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.workbilleder3 div {
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin: 5px 7px 5px 7px;
+    outline-style: solid;
+    outline-color: #ffffff;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+/**********OVERLAY FUNKTION*************/
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.overlay_text {
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    font-family: monospace, sans-serif;
+    font-weight: 700;
+
+}
+
+.stilartsite_knap,
+.heartplanet_knap,
+.redesign_knap,
+.everyday_knap,
+.animation_knap,
+.sexsamfund_knap,
+.lejlighed_knap,
+.keaapp_knap,
+.cocreate_knap {
+    position: relative;
+}
+
+.stilartsite_knap:hover .overlay {
+    opacity: 0.9;
+}
+
+.heartplanet_knap:hover .overlay {
+    opacity: 0.9;
+}
+
+.redesign_knap:hover .overlay {
+    opacity: 0.9;
+}
+
+.everyday_knap:hover .overlay {
+    opacity: 0.9;
+}
+
+.animation_knap:hover .overlay {
+    opacity: 0.9;
+}
+
+.sexsamfund_knap:hover .overlay {
+    opacity: 0.9;
+}
+
+.lejlighed_knap:hover .overlay {
+    opacity: 0.9;
+}
+
+.keaapp_knap:hover .overlay {
+    opacity: 0.9;
+}
+
+.cocreate_knap:hover .overlay {
+    opacity: 0.9;
+}
+
+/****************************/
+
+.contactme {
+    margin: 0 auto;
+    width: 50vw;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info {
+    width: 100%;
+    flex-basis: 500px;
+    flex-grow: 1;
+    margin: 3vw;
+}
+
+.ikon {
+    width: 100%;
+    flex-basis: 40px;
+    flex-grow: 1;
+    margin: 3vw;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.fa-facebook {
+    background: #a7cebc;
+    color: white;
+}
+
+.fa-facebook:hover {
+    background: #3B5998;
+}
+
+.fa-linkedin {
+    background: #a7cebc;
+    color: white;
+}
+
+.fa-linkedin:hover {
+    background: #007bb5;
+}
+
+
+.fa-instagram {
+    background: #a7cebc;
+    color: white;
+}
+
+.fa-instagram:hover {
+    background: #125688;
+}
+
+.fa-vimeo {
+    background: #a7cebc;
+    color: white;
+}
+
+.fa-vimeo:hover {
+    background: #45bbff;
+}
+
+/*****************************/
+
+.work_overskrift {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: monospace, sans-serif;
+    font-weight: 600;
+    font-size: 5vw;
+    margin: 0 auto;
+    padding: 13vw 15vw 1vw;
+}
+
+h4 {
+    font-family: monospace, sans-serif;
+    font-weight: 200;
+    font-size: 3vw;
+    margin: 0 auto;
+    padding: 0 15vw;
+}
+
+h5 {
+    font-family: monospace, sans-serif;
+    font-weight: 800;
+    font-size: 1.4em;
+    margin: 1vw 0;
+}
+
+.portfolio_content {
+    margin: 0 15vw;
+}
+
+@media screen and (max-width: 587px) {
+
+    nav .logo {
+        background-image: url(images/heart.svg);
+        margin: 5vw 0;
+    }
+    #welcome {
+        padding: 15vw 0 0 0;
+    }
+
+    #portfolio {
+        padding: 13vw 0 0 0;
+    }
+
+    #contact {
+        padding: 13vw 0 0 0;
+    }
+
+    .pilned {
+        top: -38vw;
+        position: relative;
+    }
+    .portfolio_content {
+        margin: 0 5vw;
+    }
+
+    h3 {
+        padding: 20vw 20vw 0;
+    }
+    h4 {
+        padding: 0 20vw;
+    }
+    .swipe_right,
+    .swipe_left {
+        top: 20vw;
+        width: 6vw;
+        height: 9vw;
+    }
+
+    .scroll_web {
+        margin: 0 0 5vw 0;
+    }
+}
+
+p {
+    font-family: monospace, sans-serif;
+    font-size: 1.3em;
+    margin: 0 1vw 0 0;
+}
+
+li {
+    font-family: monospace, sans-serif;
+    font-size: 1.3em;
+}
+
+.indledning {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.start_tekst {
+    flex-grow: 9;
+    flex-basis: 400px;
+    margin: 0 1.4vw 0 0;
+}
+
+.programmer {
+    flex-grow: 1;
+    flex-basis: 250px;
+
+}
+
+.se_mere {
+    margin: 0 0 5vw;
+}
+
+.se_mere p {
+    font-weight: 600;
+}
+
+.se_mere a {
+    color: #a7cebc;
+}
+
+/***************STILARTSITE*******************/
+
+iframe {
+    border: 0;
+}
+
+.scroll_web {
+    flex-grow: 9;
+    flex-basis: 400px;
+    width: 100%;
+    padding: 0 0 0vw 0;
+
+}
+
+.embed_web {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    outline-style: solid;
+    outline-color: #a7cebc;
+}
+
+.mockup img {
+    width: 100%;
+}
+
+.stilart_moodboard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stilart_moodboard div {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    flex-basis: 258px;
+    margin: 4vw 0 1vw 0;
+    padding: 0.5vw;
+}
+
+.stilart_moodboard img {
+    width: 100%;
+}
+
+.stilart_splash img {
+    margin: 1.5vw 0;
+    width: 100%;
+}
+
+.stilart_ikon {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ikon_tekst {
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin: 1.5vw 0;
+}
+
+.ikon_billede {
+    width: 100%;
+    height: 100%;
+    flex-grow: 2;
+    flex-basis: 350px;
+    margin: 1.5vw 0;
+}
+
+.stilart_ikon img {
+    width: 100%;
+}
+
+.stilart_styletile img,
+.stilart_layout img {
+    margin: 1.5vw 0;
+    width: 100%;
+    outline-style: solid;
+    outline-color: white;
+
+}
+
+/****************HEARTPLANET******************/
+
+.heart_video {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    margin-top: 2vw;
+    margin: 1.5vw 0vw;
+    outline-style: solid;
+    outline-color: #a7cebc;
+
+}
+
+.heart_premiere {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.premiere_billede {
+    width: 100%;
+    height: 100%;
+    flex-grow: 2;
+    flex-basis: 250px;
+    margin: 1.5vw 0vw;
+    outline-style: solid;
+    outline-color: white;
+}
+
+.premiere_billede img {
+    width: 100%;
+}
+
+.heart_tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.karin_tag {
+    flex-grow: 1;
+    flex-basis: 100px;
+}
+
+.karin_tag img,
+.niels_tag img {
+    width: 100%;
+}
+
+.niels_tag {
+    flex-grow: 1;
+    flex-basis: 100px;
+}
+
+.niels_billede img {
+    width: 100%;
+    margin: 1.5vw 0vw;
+    outline-style: solid;
+    outline-color: white;
+
+}
+
+.heart_grafik {
+    margin: 1.5vw 0vw;
+}
+
+.heart_grafik img {
+    width: 100%;
+
+    outline-style: solid;
+    outline-color: white;
+}
+
+/******************REDESIGN********************/
+
+.redesign_styletile {
+    margin: 3vw 0;
+}
+
+.redesign_styletile img {
+    width: 100%;
+    outline-style: solid;
+    outline-color: #a7cebc;
+}
+
+.redesign_slogan img {
+    margin: 1.5vw 0;
+    width: 100%;
+    outline-style: solid;
+    outline-color: #a7cebc;
+}
+
+.redesign_bert {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bert_tekst {
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin: 1.5vw 0;
+}
+
+.bert_test {
+    width: 100%;
+    height: 100%;
+    flex-grow: 2;
+    flex-basis: 250px;
+    margin: 1.5vw 0;
+}
+
+.bert_test img {
+    width: 100%;
+}
+
+.redesign_sammenlign {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.redesign_sammenlign div {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    flex-basis: 258px;
+    margin: 1.5vw 0vw;
+}
+
+.redesign_sammenlign img {
+    width: 100%;
+    outline-style: solid;
+    outline-color: #a7cebc;
+
+}
+
+/*****************EVERYDAY********************/
+
+.everyday_logo img {
+    width: 100%;
+    margin: 1.5vw 0vw;
+}
+
+.everyday_story img {
+    width: 100%;
+    margin: 1.5vw 0vw;
+    outline-style: solid;
+    outline-color: #a7cebc;
+
+}
+
+.everyday_storyboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.everyday_storyboard div {
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin: 1.5vw 0;
+
+}
+
+.everyday_storyboard img {
+    width: 100%;
+}
+
+/***************SEXSAMFUND******************/
+
+.sex_animation img {
+    width: 100%;
+    margin: 1.5vw 0vw;
+    outline-style: solid;
+    outline-color: white;
+}
+
+.sex_logo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sex_logo div {
+    flex-grow: 1;
+    flex-basis: 150px;
+    margin: 1.5vw 0;
+}
+
+.sex_logo img {
+    width: 100%;
+}
+
+.sex_style {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sex_style div {
+    flex-grow: 1;
+    flex-basis: 260px;
+    margin: 1.5vw 0;
+    outline-style: solid;
+    outline-color: white;
+    padding: 0.5vw;
+}
+
+.sex_style img {
+    width: 100%;
+
+}
+
+.sex_annonce {
+    margin: 1.5vw 0;
+}
+
+.sex_annonce img {
+    width: 100%;
+}
+
+.sex_sprite {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sex_sprite div {
+    flex-grow: 1;
+    flex-basis: 260px;
+    margin: 1.5vw 0;
+}
+
+.sex_sprite img {
+    width: 100%;
+}
+
+.sex_burndown img {
+    margin: 1.5vw 0;
+    width: 100%;
+    outline-style: solid;
+    outline-color: white;
+}
+
+.sex_trello {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trello_tekst {
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin: 1.5vw 0;
+    padding: 0 1vw 0 0;
+}
+
+.trello_billede {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    flex-basis: 270px;
+    margin: 1.5vw 0;
+    outline-style: solid;
+    outline-color: white;
+}
+
+.trello_billede img {
+    width: 100%;
+}
+
+/******************ANIMATION*******************/
+
+.embed_animation {
+    width: 100%;
+    height: 35vw;
+    transform: scale(1.25);
+    margin: 5vw 0;
+}
+
+.scroll_web {
+    flex-grow: 9;
+    flex-basis: 400px;
+    width: 100%;
+    padding: 0 0 0vw 0;
+
+}
+
+.embed_web {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    outline-style: solid;
+    outline-color: #a7cebc;
+}
+
+.animation_screen img {
+    margin: 1.5vw 0;
+    width: 100%;
+}
+
+.animation_skitser {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.animation_skitser div {
+    padding: 0.5vw;
+}
+
+.animation_skitser img {
+    width: 100%;
+    margin: 0 0 1.5vw 0;
+
+}
+
+.animation_sprite,
+.animation_aktant {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.animation_sprite img,
+.animation_aktant img {
+    width: 100%;
+    outline-style: solid;
+    outline-color: #a7cebc;
+    margin: 1.5vw 0;
+}
+
+.animation_aktant img {
+    height: 100%
+}
+
+.animation_story img {
+    width: 100%;
+    outline-style: solid;
+    outline-color: #a7cebc;
+    margin: 1.5vw 0;
+}
+
+.animation_style {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.animation_style div {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin: 1.5vw 0;
+    padding: 0.5vw;
+}
+
+.animation_style img {
+    width: 100%;
+}
+
+.animation_sekvens {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sekvens_tekst {
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin: 1.5vw 0;
+    padding: 0 0.5vw 0 0;
+
+}
+
+.sekvens_billede {
+    width: 100%;
+    height: 100%;
+    flex-grow: 2;
+    flex-basis: 250px;
+    margin: 1.5vw 0;
+    outline-style: solid;
+    outline-color: #a7cebc;
+}
+
+.animation_sekvens img {
+    width: 100%;
+}
+
+/************KEA APP**************/
+
+.kea_forside img {
+    width: 100%;
+    margin: 1.5vw 0;
+}
+
+.kea_story {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kea_storyboard {
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin: 1.5vw 0;
+    padding: 0.5vw;
+}
+
+.kea_brainstorm {
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin: 1.5vw 0;
+    padding: 0.5vw;
+}
+
+.kea_storyboard img {
+    width: 100%;
+}
+
+.kea_brainstorm img {
+    width: 100%;
+}
+
+.kea_style {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.kea_style div {
+    flex-grow: 1;
+    flex-basis: 20px;
+    margin: 1.5vw 0;
+    padding: 0.5vw;
+}
+
+.kea_style img {
+    width: 100%;
+}
+
+.kea_design {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.kea_design div {
+    flex-grow: 1;
+    flex-basis: 20px;
+    margin: 1.5vw 0;
+    padding: 0.5vw;
+}
+
+.kea_design img {
+    width: 100%;
+}
+
+
+.kea_bredlogo img {
+    width: 100%;
+    padding: 0.5vw;
+    margin: 1.5vw 0;
+}
+
+/*************COCREATE**************/
+
+.co_forside img {
+    width: 100%;
+    margin: 1.5vw 0;
+}
+
+.co_stylemood {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.co_style {
+    flex-grow: 1;
+    flex-basis: 300px;
+    width: 100%;
+    margin: 1.5vw 0;
+}
+
+
+.co_moodboard {
+    flex-grow: 1;
+    flex-basis: 300px;
+    width: 100%;
+    margin: 1.5vw 0;
+}
+
+.co_undersoegelse {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.co_undersoegelse div {
+    padding: 0.5vw;
+
+}
+
+.co_undersoegelse img {
+    width: 100%;
+    margin: 0 0 1.5vw 0;
+
+}
+
+.co_story img {
+    width: 100%;
+    margin: 1.5vw 0;
+}
+
+.co_burndown img {
+    flex-grow: 1;
+    flex-basis: 20px;
+    margin: 1.5vw 0;
+    width: 100%;
+}
+
+.co_trello img {
+    flex-grow: 1;
+    flex-basis: 20px;
+    margin: 1.5vw 0;
+    width: 100%;
+}
